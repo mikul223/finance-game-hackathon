@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "название",
+    "description": "описание",
+    "image": "excursion1.jpg",
+    "duration": "1.5 часа",
+    "pointsCount": 148
+  },
+  {
+    "id": "2",
+    "title": "название2",
+    "description": "описание2",
+    "image": "excursion2.jpg",
+    "duration": "2 часа",
+    "pointsCount": 66
+  },
+  {
+    "id": "3",
+    "title": "название3",
+    "description": "описание3",
+    "image": "excursion3.jpg",
+    "duration": "2.5 часа",
+    "pointsCount": 44
+  }
+]

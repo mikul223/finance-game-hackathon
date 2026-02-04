@@ -5,6 +5,7 @@ import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
 import { Button } from 'react-native';
 
+import ExcursionDetailScreen from '../screens/ExcursionDetailScreen';
 const Stack = createNativeStackNavigator();
 
 export default function AppNavigator() {
@@ -25,6 +26,7 @@ export default function AppNavigator() {
       <Stack.Screen name="AuthOptions" component={AuthOptionsScreen} />
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Register" component={RegisterScreen} />
+      <Stack.Screen name="ExcursionDetail" component={ExcursionDetailScreen} />
     </Stack.Navigator>
   );
 }
