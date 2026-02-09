@@ -1,9 +1,8 @@
 
 
 import { NavigationContainer } from '@react-navigation/native';
-import './src/services/firebase';
 import AppNavigator from './src/navigation/AppNavigator';
-
+import './src/services/firebase';
 
 
 // выполнение

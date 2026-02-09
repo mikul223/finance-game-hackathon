@@ -1,26 +1,31 @@
 [
   {
     "id": "1",
-    "title": "название",
-    "description": "описание",
+    "title": "Найди финансовую жемчужину Нижнего Новгорода!",
+    "description": "(описание) невероятно крутая экскурсия и тут будет то то то, вау я просто в шоке с неё",
     "image": "excursion1.jpg",
-    "duration": "1.5 часа",
-    "pointsCount": 148
+    "duration": "45",
+    "pointsCount": 7,
+    "status": "active"
+    
   },
   {
     "id": "2",
-    "title": "название2",
+    "title": "В разработке!",
     "description": "описание2",
     "image": "excursion2.jpg",
-    "duration": "2 часа",
-    "pointsCount": 66
+    "duration": "244",
+    "pointsCount": 66,
+    "status": "development"
   },
   {
     "id": "3",
-    "title": "название3",
-    "description": "описание3",
+    "title": "название",
+    "description": "(описание) ",
     "image": "excursion3.jpg",
-    "duration": "2.5 часа",
-    "pointsCount": 44
+    "duration": "425",
+    "pointsCount": 55,
+    "status": "active"
+    
   }
 ]

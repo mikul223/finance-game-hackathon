@@ -1,5 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from '../screens/HomeScreen';
+import ExcursionMapScreen from '../screens/ExcursionMapScreen';
 import AuthOptionsScreen from '../screens/AuthOptionsScreen';
 import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
@@ -27,6 +28,8 @@ export default function AppNavigator() {
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Register" component={RegisterScreen} />
       <Stack.Screen name="ExcursionDetail" component={ExcursionDetailScreen} />
+      <Stack.Screen name="ExcursionMap" component={ExcursionMapScreen} />
+
     </Stack.Navigator>
   );
 }
